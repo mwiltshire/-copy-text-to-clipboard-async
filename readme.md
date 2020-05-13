@@ -45,5 +45,5 @@ Specify a DOM element where the temporary, behind-the-scenes `textarea` should b
 
 ## Related
 
-- [copy-text-to-clipboard](https://github.com/sindresorhus/copy-text-to-clipboard) - The original library this is on
+- [copy-text-to-clipboard](https://github.com/sindresorhus/copy-text-to-clipboard) - The original library this is based on
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - Access the system clipboard (copy/paste) in Node.js (from the same, original author)
