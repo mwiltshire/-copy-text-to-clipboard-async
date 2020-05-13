@@ -1,4 +1,11 @@
-> Copy text to the clipboard in modern browsers
+# copy-text-to-clipboard-async
+
+Copy text to the clipboard in modern browsers
+
+![Travis (.org)](https://img.shields.io/travis/mwiltshire/copy-text-to-clipboard-async?style=flat-square)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+
+---
 
 This library extends [copy-text-to-clipboard](https://github.com/sindresorhus/copy-text-to-clipboard), adding promise and [Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API) support. If the current browser environment supports the Clipboard API then that will be used, otherwise it will fall back to using `document.execCommand('copy')`.
 
