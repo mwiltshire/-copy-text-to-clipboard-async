@@ -1,0 +1,51 @@
+{
+  "name": "copy-text-to-clipboard-async",
+  "version": "0.0.0-semantically-released",
+  "description": "Copy text to the clipboard in modern browsers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwiltshire/copy-text-to-clipboard-async/issues"
+  },
+  "homepage": "https://github.com/mwiltshire/copy-text-to-clipboard-async#readme",
+  "repository": "mwiltshire/copy-text-to-clipboard-async",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "format": "prettier --write \"*.{ts,js}\"",
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test"
+  },
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "copy",
+    "text",
+    "clipboard",
+    "browser",
+    "clipboard.js",
+    "modern"
+  ],
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "semantic-release": "^17.0.7",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "clearMocks": true,
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  }
+}
